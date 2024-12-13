@@ -1,0 +1,32 @@
+
+    Vimos também que o Kotlin pode inferir os tipos de dados das variáveis sem precisarmos especificar em todas as declarações:
+
+    val nome: String = "Jeni" // o tipo é inferido pelo valor atribuído
+    val nome = "Jeni" // pode ser declarado sem explicitar o tipo
+
+    Variaveis declaradas com var , permitem alteracao nos valores inseridos.
+    Variaveis declaradas com val , nao permitem a modificacao de valores atribuidos.
+    No kotlin , as variaveis precisam ser inicializadas e receber valores iniciais
+
+    Crtl + alt + O -> remove imports nao utilizados no codigo
+
+    As Data Classes no Kotlin são muito utilizadas quando queremos declarar classes com o objetivo principal de armazenar dados.
+    Uma das vantagens de utilizar data classes é o fato de já trazer alguns métodos implementados que são super úteis durante o desenvolvimento, c
+    como:
+
+    equals()
+    toString()
+
+
+    As scope functions são:
+
+    let - executa uma ação em um objeto e retorna o resultado da expressão lambda;
+
+    run - também executa uma ação em um objeto como o let, mas não retorna o resultado da expressão, e sim o resultado
+    do bloco de código;
+
+    with - executa uma sequência de operações sendo necessário passar o objeto como argumento explícito;
+
+    apply - realiza operações de configuração em um objeto e retorna o próprio objeto modificado;
+
+    also - realiza a mesma coisa que o apply, porém retorna o próprio objeto original.
